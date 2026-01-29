@@ -15,7 +15,7 @@ public class LoginTests extends BaseClass implements ITestListener {
 
     boolean result = CommonUtils.loginToSaucelabApp();
 
-    //Assert.assertTrue(result);
+    Assert.assertTrue(result);
     Assert.assertTrue(result,"Could not login to saucelab app!!");
 
     writeResultsToFile("Login_001","Pass");
