@@ -11,5 +11,6 @@ public class PaymentTests extends BaseClass {
     {
         WebElement btn = driver.findElement(By.xpath("//input[@id='username'']"));
         CommonUtils.clickElement(btn);
+         CommonUtils.clickElement(btn);
     }
 }
