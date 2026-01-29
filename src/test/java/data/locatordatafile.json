@@ -1,0 +1,15 @@
+{
+  "LoginPage": {
+    "usernameTextbox": "//input[@id='user-name']",
+    "passwordTextbox": "//input[@id='password']",
+    "loginButton": "//input[@id='login-button']"
+  },
+  "CartPage": {
+    "cartIcon": "//div[@id='shopping_cart_container']",
+    "backpackAddButton": "//button[@id='add-to-cart-sauce-labs-backpack']",
+    "cartItemAdded": "//div[text()='Sauce Labs Backpack']/../..//button"
+  },
+  "FileUpload":  {
+    "ChooseFileButton": "//input[@id='uploadFile']"
+  }
+}

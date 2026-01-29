@@ -1,0 +1,14 @@
+2026-01-15 23:23:13 INFO  BaseClass - The execution is starting...
+2026-01-15 23:23:17 INFO  BaseClass - **************** 
+
+2026-01-15 23:23:17 INFO  BaseClass - Starting the test case login_003
+2026-01-15 23:23:24 INFO  BaseClass - The test case login_003 is Pass
+2026-01-15 23:23:25 INFO  BaseClass - The execution is ending...
+2026-01-15 23:23:25 INFO  BaseClass -  This method will run after the complete execution
+2026-01-15 23:25:14 INFO  BaseClass - The execution is starting...
+2026-01-15 23:25:18 INFO  BaseClass - **************** 
+
+2026-01-15 23:25:18 INFO  BaseClass - Starting the test case login_003
+2026-01-15 23:25:25 INFO  BaseClass - The test case login_003 is Pass
+2026-01-15 23:25:26 INFO  BaseClass - The execution is ending...
+2026-01-15 23:25:26 INFO  BaseClass -  This method will run after the complete execution

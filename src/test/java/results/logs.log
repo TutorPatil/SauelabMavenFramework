@@ -1,0 +1,6 @@
+2026-01-29 09:22:54 INFO   - ******Starting the test case login_001
+2026-01-29 09:23:15 INFO   - ******Starting the test case login_002
+2026-01-29 09:23:21 ERROR  - ******java.lang.AssertionError: Could not login to saucelab app!! expected [false] but found [true]
+2026-01-29 09:23:29 INFO   - ******Starting the test case login_003
+2026-01-29 09:23:37 INFO   - ******The execution is ending...
+2026-01-29 09:23:39 INFO   - ****** This method will run after the complete execution

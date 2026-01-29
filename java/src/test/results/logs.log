@@ -1,0 +1,16 @@
+2026-01-15 23:49:18 INFO  BaseClass - The execution is starting...
+2026-01-15 23:49:23 INFO  BaseClass - **************** 
+
+2026-01-15 23:49:23 INFO  BaseClass - Starting the test case login_002
+2026-01-15 23:49:28 INFO  BaseClass - The test case login_002 is getting skipped
+2026-01-15 23:49:34 INFO  BaseClass - **************** 
+
+2026-01-15 23:49:34 INFO  BaseClass - Starting the test case login_002
+2026-01-15 23:49:41 INFO  BaseClass - The test case login_002 is getting skipped
+2026-01-15 23:49:47 INFO  BaseClass - **************** 
+
+2026-01-15 23:49:47 INFO  BaseClass - Starting the test case login_002
+2026-01-15 23:49:51 INFO  BaseClass - The test case login_002 is Failed!!
+2026-01-15 23:49:52 ERROR BaseClass - java.lang.AssertionError: Could not login to saucelab app!! expected [false] but found [true]
+2026-01-15 23:49:52 INFO  BaseClass - The execution is ending...
+2026-01-15 23:49:52 INFO  BaseClass -  This method will run after the complete execution

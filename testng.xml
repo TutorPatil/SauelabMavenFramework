@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- <suite name="Regression Tests" parallel="methods"  thread-count="2"> -->
+<suite name="Regression Tests">
+
+    <listeners>
+        <listener class-name="com.saucelab.base.BaseClass"/>
+    </listeners>
+
+    <test name="Login">
+
+        <groups>
+            <run>
+                <include name="login"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="com.saucelab.tests"/>
+        </packages >
+
+    </test>
+
+</suite>
