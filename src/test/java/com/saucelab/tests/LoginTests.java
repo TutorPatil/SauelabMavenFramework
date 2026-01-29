@@ -24,6 +24,8 @@ public class LoginTests extends BaseClass implements ITestListener {
     @Test(groups = { "smoke", "login","login_002" } ) //,retryAnalyzer = BaseClass.class)
     public static void login_002() throws Exception {
 
+
+        // Failing test intentionally to check
         boolean result = CommonUtils.loginToSaucelabApp();
         Assert.assertFalse(result,"Could not login to saucelab app!!");
     }
