@@ -14,6 +14,7 @@ public class CartTests extends BaseClass {
 
         // Change the getLocatorDato use Json file data
         CommonUtils.loginToSaucelabApp();
+        writeLogsToFile(" checking for SCM poll");
         writeLogsToFile(" Logged to application, now tying to add item to cart..");
         driver.findElement(By.xpath(getLocatorData("backpackAddButton"))).click();
         Thread.sleep(2000);
