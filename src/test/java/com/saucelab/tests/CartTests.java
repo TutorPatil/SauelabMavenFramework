@@ -19,6 +19,7 @@ public class CartTests extends BaseClass {
         Thread.sleep(2000);
         driver.findElement(By.xpath(getLocatorData("cartIcon"))).click();
         Thread.sleep(2000);
+        Thread.sleep(2000);
 
         result = driver.findElement(By.xpath(getLocatorData("cartItemAdded"))).isDisplayed();
         Assert.assertTrue(result , "could not add the item to the cart!!");
