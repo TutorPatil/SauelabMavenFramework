@@ -14,6 +14,7 @@ public class CartTests extends BaseClass {
 
         // Change the getLocatorDato use Json file data
         CommonUtils.loginToSaucelabApp();
+           writeLogsToFile(" Testing webhooks");
         writeLogsToFile(" checking for SCM poll");
            writeLogsToFile(" checking for SCM poll 2");
         writeLogsToFile(" Logged to application, now tying to add item to cart..");
